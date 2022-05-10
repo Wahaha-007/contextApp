@@ -3,11 +3,6 @@ import { ThemeContext } from '../contexts/ThemeContext';
 
 class Booklist extends Component {
   
-  //  Good point of this method :
-  //  - Clean code  
-  //  Bad point
-  //  - Can use in class component only
-
   static contextType = ThemeContext; 
 
   render() { 
